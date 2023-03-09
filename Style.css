@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    margin: 0px;
+    background-color: #3d495a;
+}
+.item11 {
+    margin: 15px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.item12 {
+    margin: 25px 0px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    flex: 1 1 0;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-weight: 900;
+    border: 2px solid #3882F6;
+}
+#hero-sec {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+#info-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+.quote-section {
+    background-color: #E5E7EB;
+}
+blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.container-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 150px 80px 100px;
+    margin: 0px;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+.container-1 h2,nav {
+    flex: 1;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container-2 .item13, .container-2 img {
+    flex: 0 1 auto;
+}
+.container-2 img {
+    height: 200px;
+    width: 500px;
+    display: block;
+}
+.container-3-1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-3 {
+    padding: 20px 0px 50px 0px;
+    background-color: #fff;
+}
+.container-3-1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+}
+.quote-section {
+    padding: 30px 60px 50px 60px;
+}
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 50px 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-4 cite {
+    align-self: flex-end;
+    font-size: xx-large;
+}
+.container-5 {
+    padding: 50px 100px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.cta {
+    background: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 70px;
+    margin: auto 40px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.footer {
+    text-align: center;
+    background: #3d495a;
+    padding: 15px 0px 15px 0px;
+}
